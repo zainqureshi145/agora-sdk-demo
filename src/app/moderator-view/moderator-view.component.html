@@ -1,0 +1,14 @@
+<div class="videos">
+    <div id="local-stream" class="stream"></div>
+    <div id="remote-stream" class="stream"></div>
+</div>
+<div class="container has-text-centered">
+    <h1 class="title has-text-centered">Moderator View</h1>
+    <div>
+        <button (click) = "onStartCallHandler($event)"
+                class="button is-success">Start Call
+        </button>
+        <button (click) = "onLeaveCallHandler($event)" class="button is-danger">Leave Call</button>
+        <button (click) = "onJoinCallHandler($event)" class="button is-dark">Join Call</button>
+    </div>
+</div>
